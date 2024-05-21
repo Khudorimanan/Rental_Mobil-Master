@@ -162,9 +162,13 @@
                                     <option <?php if($hasil['konfirmasi_pembayaran'] == 'Sedang di proses'){echo 'selected';}?>>
                                         Sedang di proses
                                     </option>
+                                    <option <?php if($hasil['konfirmasi_pembayaran'] == 'Waktu Habis'){echo 'selected';}?>>
+                                        Waktu habis mobil silahkan dikembalikan
+                                    </option>
                                     <option <?php if($hasil['konfirmasi_pembayaran'] == 'Pembayaran di terima silahkan ambil mobil ketempat kami'){echo 'selected';}?>>
                                         Pembayaran di terima silahkan ambil mobil ketempat kami
                                     </option>
+                                    
                                 </select>    
                             </td>
                         </tr>

@@ -49,9 +49,7 @@
                     <a class="nav-link" href="profil.php">Profil</a>
                 </li>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="pengembalian.php">Pengembalian</a>
-                </li>
+                
             <?php }?>
             </ul>
             <?php if(!empty($_SESSION['USER'])){?>

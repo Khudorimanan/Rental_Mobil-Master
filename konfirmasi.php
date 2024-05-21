@@ -78,7 +78,7 @@
                         <tr>
                             <td>Total yg Harus di Bayar </td>
                             <td> :</td>
-                            <td>Rp. <?php echo number_format($hasil['total_harga']);?> + keterlambatan perhari</td>
+                            <td>Rp. <?php echo number_format($hasil['total_harga']);?>+ keterlambatan perhari</td>
                         </tr>
                     </table>
                     <input type="hidden" name="id_booking" value="<?php echo $hasil['id_booking'];?>">
